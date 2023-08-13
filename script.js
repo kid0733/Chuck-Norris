@@ -15,6 +15,8 @@ function getJoke(){
             console.log(data.value);
             text.innerHTML=`${data.value}`;
             text.style.fontSize='18px';
+        }else{
+            text.innerHTML=`Something not funny happened :(`
         }
 
     }
