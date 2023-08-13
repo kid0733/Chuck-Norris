@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: rgb(92, 99, 220);
+}
+.container{
+    max-width: 500px;
+    margin:30% auto;
+}
+.box{
+    background-color: rgb(240, 240, 240);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+h1{
+    color: rgb(151, 151, 151);
+    font-size: 20px;
+}
+.text{
+    font-size: 25px;
+}
+button{
+    background-color: rgb(92, 99, 220);
+    border: none;
+    color: rgb(221, 205, 237);
+    padding: 15px 25px;
+    border-radius:15px ;
+    width: fit-content;
+    margin: 0 auto;
+}
